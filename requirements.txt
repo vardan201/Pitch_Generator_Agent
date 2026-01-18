@@ -12,8 +12,8 @@ langchain-groq==0.0.1
 # LLM Provider
 groq==0.4.2
 
-# Search Tools
-duckduckgo-search==4.1.1
+# Search Tools - Updated to avoid Rust compilation
+duckduckgo-search==6.3.5
 
 # Environment Variables
 python-dotenv==1.0.0
