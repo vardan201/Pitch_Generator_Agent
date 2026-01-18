@@ -1,0 +1,27 @@
+# Core FastAPI dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+
+# LangChain and LangGraph
+langgraph==0.0.28
+langchain-core==0.1.23
+langchain-community==0.0.20
+langchain-groq==0.0.1
+
+# LLM Provider
+groq==0.4.2
+
+# Search Tools
+duckduckgo-search==4.1.1
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Additional utilities
+typing-extensions==4.9.0
+pydantic-core==2.14.6
+annotated-types==0.6.0
+
+# CORS middleware (included in fastapi but listed for clarity)
+# starlette is automatically installed with fastapi
